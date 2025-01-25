@@ -1,5 +1,5 @@
 .legal-header {
-  background-color: #e2e2e2;
+  background-color: #ffffff;
   padding: 30px;
   margin-top: 60px;
   width: 100%;
@@ -11,7 +11,19 @@
   margin: 0 auto;
 }
 
+.fixed {
+  position: fixed;
+  z-index: 5;
+}
+
 main {
+  margin-top: 160px;
+  margin-bottom: -21px;
+}
+
+.sticky {
+  position: sticky;
+  top: 197px;
 }
 
 section {
@@ -59,6 +71,7 @@ footer {
   background-color: #e2e2e2;
   padding: 0 30px;
   min-height: 70px;
+  bottom: 0;
 }
 
 .footer-content {
